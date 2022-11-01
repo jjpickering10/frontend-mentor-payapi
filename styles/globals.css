@@ -41,7 +41,7 @@
     @apply text-waterWhite bg-darkPink rounded-[100vw] hover:bg-charmPink font-bold;
   }
   button.secondary__light {
-    @apply text-waterWhite bg-mirageBlue rounded-[100vw] hover:bg-waterWhite hover:text-mirageBlue font-bold;
+    @apply text-waterWhite bg-mirageBlue rounded-[100vw] hover:bg-waterWhite hover:text-mirageBlue font-bold border-waterWhite border  h-12 w-[129px];
   }
   button.secondary__dark {
     @apply text-sanJuanBlue bg-waterWhite rounded-[100vw] hover:bg-sanJuanBlue hover:text-waterWhite font-bold;
