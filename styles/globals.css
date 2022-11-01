@@ -20,7 +20,7 @@
   }
 
   h1 {
-    @apply text-[72px] leading-[72px];
+    @apply text-[32px] leading-[36px] md:text-[48px] md:leading-[56px]  lg:text-[72px] lg:leading-[72px];
   }
   h1.small {
     @apply text-[56px] leading-[56px];
