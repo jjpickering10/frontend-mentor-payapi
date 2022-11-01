@@ -17,10 +17,11 @@ module.exports = {
       mirageBlue: '#1b262f',
       charmPink: '#da6d97',
       lightSanJuanBlue: '#6c8294',
+      background: '#edf3f8',
     },
     fontFamily: {
       body: ['Public Sans', 'sans-serif'],
-      headings: ['DM Serif Display', 'serif'],
+      headings: ['"DM Serif Display"', 'serif'],
     },
     extend: {},
   },
