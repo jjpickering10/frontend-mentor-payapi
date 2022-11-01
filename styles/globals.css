@@ -26,7 +26,7 @@
     @apply text-[56px] leading-[56px];
   }
   h2 {
-    @apply text-[48px] leading-[56px];
+    @apply text-[32px] leading-[36px] md:text-[48px] md:leading-[56px];
   }
   h3 {
     @apply text-[32px] leading-[40px];
