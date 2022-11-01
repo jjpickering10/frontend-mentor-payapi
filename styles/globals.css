@@ -9,7 +9,7 @@
 @layer base {
   body,
   html {
-    @apply font-body bg-background text-lightSanJuanBlue text-[15px] leading-[28px];
+    @apply font-body bg-background text-lightSanJuanBlue leading-[28px];
   }
 
   h1,
@@ -45,6 +45,9 @@
   }
   button.secondary__dark {
     @apply text-sanJuanBlue bg-waterWhite rounded-[100vw] hover:bg-sanJuanBlue hover:text-waterWhite font-bold;
+  }
+  p {
+    @apply text-[15px];
   }
 }
 
