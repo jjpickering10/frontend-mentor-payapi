@@ -32,7 +32,7 @@
     @apply text-[32px] leading-[40px];
   }
   h3.small {
-    @apply font-body text-[18px] leading-[25px];
+    @apply font-body text-[18px] leading-[25px] font-bold;
   }
   h4 {
     @apply text-[24px] leading-[32px];

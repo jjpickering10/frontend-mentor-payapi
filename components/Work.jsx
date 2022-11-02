@@ -10,7 +10,7 @@ import Image from 'next/image';
 const Work = () => {
   return (
     <div className='text-waterWhite bg-mirageBlue text-center lg:text-left flex flex-col lg:flex-row-reverse justify-center lg:justify-between items-center lg:px-[165px]'>
-      <div className='grid grid-cols-2 md:grid-cols-3 gap-10 mt-[80px] mb-14 mx-12 lg:mx-0 lg:mb-0 lg:mt-0'>
+      <div className='grid grid-cols-2 place-items-center md:grid-cols-3 gap-10 mt-[80px] mb-14 mx-12 lg:mx-0 lg:mb-0 lg:mt-0'>
         <div>
           <Image
             src={tesla.src}
