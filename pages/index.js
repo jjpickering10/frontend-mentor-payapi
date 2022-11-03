@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import Hero from '../components/Hero';
 import Info from '../components/Info';
+import Main from '../components/Main';
 import Work from '../components/Work';
 import homeInfo from '../data/homeInfo';
+import mainInfo from '../data/mainInfo';
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Work />
+      <Main sections={mainInfo} />
       <Info sections={homeInfo} />
     </div>
   );
